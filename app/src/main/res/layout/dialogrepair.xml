@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txttitleupdate"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Cập Nhập Công Việc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Cập nhập môn học"
+        android:id="@+id/edittextupdate"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txttitleupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginLeft="130dp"
+        android:id="@+id/btncapnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextupdate"
+        android:text="Cập Nhập" />
+
+    <Button
+        android:id="@+id/btnhuybo"
+        android:layout_toRightOf="@+id/btncapnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextupdate"
+        android:text="Hủy" />
+</RelativeLayout>
